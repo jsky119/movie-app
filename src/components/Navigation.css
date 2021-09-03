@@ -3,10 +3,9 @@
   position: fixed;
   display: flex;
   flex-direction: column;
-  top: 20%;
-  left: 50px;
+  top: 10px;
+  left: 0px;
   padding: 10px 20px;
-  border-radius: 10px;
 }
 
 .nav a {
@@ -16,10 +15,11 @@
   color: black;
   background-color: #fff;
   font-weight: 800;
+  border-radius: 7px;
 }
 
 .nav a:first-child {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .nav a:hover {
