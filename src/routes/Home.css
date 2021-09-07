@@ -39,3 +39,8 @@ body,
   padding-top: 70px;
   width: 80%;
 }
+
+.movies a {
+  display: contents;
+  text-decoration: none;
+}

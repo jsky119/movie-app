@@ -1,7 +1,12 @@
 import React from "react";
 
-function Detail(props) {
-  console.log(props);
-  return <h1>hello</h1>;
+class Detail extends React.Component {
+  componentDidMount() {
+    const { location } = this.props;
+    console.log(location.state);
+  }
+  render() {
+    return <span>hello</span>;
+  }
 }
 export default Detail;
